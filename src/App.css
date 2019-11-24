@@ -1,8 +1,8 @@
 body {
 
-    background-image: url("https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+    background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
     font-size: 40px;
-
+    color: white;
 }
 .App {
 
@@ -70,7 +70,7 @@ fieldset {
     
 }
 .form-write-city .form-row{
-    
+    margin-bottom: 10px;
 }
 
 

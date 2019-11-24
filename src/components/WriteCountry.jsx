@@ -50,7 +50,7 @@ export default class WriteCountry extends React.Component {
         continent: this.state.continent,
         country: this.state.country,
         info: this.state.info,
-        imageurl: this.state.imageurl
+        imageUrl: this.state.imageUrl
       })
       .then(function(response) {
         console.log(response);
@@ -104,19 +104,20 @@ export default class WriteCountry extends React.Component {
           </div>
           <div className="form-row">
             <label htmlFor="info-input">Enter your city's info:</label>
+            <br></br>
             <textarea
               id="info-input"
               rows="10"
-              cols="50"
+              cols="200"
               onChange={this.handleChangeInfo}
             ></textarea>
           </div>
           <div className="form-row">
-            <label htmlFor="imagenurl-input">
+            <label htmlFor="imagenUrl-input">
               Enter you city's image link:
             </label>
             <textarea
-              id="imageurl-input"
+              id="imageUrl-input"
               onChange={this.handleChangeImageUrl}
             ></textarea>
           </div>
