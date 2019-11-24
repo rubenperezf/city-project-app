@@ -1,0 +1,36 @@
+body {
+    background-color: red;
+}
+/*header*/
+header {
+    text-align: center;
+}
+/*axios*/
+.cities-container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cities {
+ border: 1px solid black;
+ margin-bottom: 10px;
+ padding: 50px;
+ width: 80%;
+ text-align: center;
+}
+.cities > img {
+    width: 500px;
+    height: 300px;
+    
+}
+.cities > .info-text {
+    text-align: left;
+}
+/*form*/
+.form-continents {
+    display: flex;
+    justify-content: center;
+}
+.form-continents label {
+    margin-right: 20px;
+}
