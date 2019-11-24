@@ -42,9 +42,11 @@ export default class Form extends React.Component {
     }
     return (
       <form className="form-continents">
+        <fieldset>
+          <legend>Check city's of the World:</legend>
         <div className="form-row">
           <label htmlFor="contient">
-            Select a continent that you like to visit
+            Select a continent that you want to visit:
           </label>  
           <select
             id="continent"
@@ -72,6 +74,7 @@ export default class Form extends React.Component {
           <button onClick={this.changeIsDisplayed}>Click</button>
           </div>
         </div>
+        </fieldset>
       </form>
     );
   }

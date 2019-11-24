@@ -62,55 +62,68 @@ export default class WriteCountry extends React.Component {
   render() {
     return (
       <form className="form-write-city">
-        <div className="form-row">
-          <label htmlFor="name-input">Enter a City:</label>
-          <textarea id="name-input" onChange={this.handleChangeName}></textarea>
-        </div>
-        <div className="form-row">
-          <label htmlFor="contient">
-            Select a continent that you like to visit
-          </label>
-          <select
-            id="continent"
-            name="continent"
-            value={this.state.continent}
-            onChange={e =>
-              this.setState({
-                continent: e.target.value
-              })
-            }
-          >
-            <option value="none">None</option>
-            <option value="Europe">Europe</option>
-            <option value="North America">North America</option>
-            <option value="South America">South America</option>
-            <option value="Africa">Africa</option>
-            <option value="Asia">Asia</option>
-            <option value="Australia">Australia</option>
-            <option value="Antartica">Antartica</option>
-          </select>
-        </div>
-        <div className="form-row">
-          <label htmlFor="country-input">Enter your city's countruyy:</label>
-          <textarea
-            id="country-input"
-            onChange={this.handleChangeCountry}
-          ></textarea>
-        </div>
-        <div className="form-row">
-          <label htmlFor="info-input">Enter your city's info:</label>
-          <textarea id="info-input" onChange={this.handleChangeInfo}></textarea>
-        </div>
-        <div className="form-row">
-          <label htmlFor="imagenurl-input">Enter you city's image link:</label>
-          <textarea
-            id="imageurl-input"
-            onChange={this.handleChangeImageUrl}
-          ></textarea>
-        </div>
-        <div className="form-row">
-        <button onClick={this.handleSubmit}>Click</button>
-        </div>
+        <fieldset>
+          <legend>Check city's of the World:</legend>
+          <div className="form-row">
+            <label htmlFor="name-input">Enter a City:</label>
+            <textarea
+              id="name-input"
+              onChange={this.handleChangeName}
+            ></textarea>
+          </div>
+          <div className="form-row">
+            <label htmlFor="contient">
+              Select a continent that you like to visit
+            </label>
+            <select
+              id="continent"
+              name="continent"
+              value={this.state.continent}
+              onChange={e =>
+                this.setState({
+                  continent: e.target.value
+                })
+              }
+            >
+              <option value="none">None</option>
+              <option value="Europe">Europe</option>
+              <option value="North America">North America</option>
+              <option value="South America">South America</option>
+              <option value="Africa">Africa</option>
+              <option value="Asia">Asia</option>
+              <option value="Australia">Australia</option>
+              <option value="Antartica">Antartica</option>
+            </select>
+          </div>
+          <div className="form-row">
+            <label htmlFor="country-input">Enter your city's countruyy:</label>
+            <textarea
+              id="country-input"
+              onChange={this.handleChangeCountry}
+            ></textarea>
+          </div>
+          <div className="form-row">
+            <label htmlFor="info-input">Enter your city's info:</label>
+            <textarea
+              id="info-input"
+              rows="10"
+              cols="50"
+              onChange={this.handleChangeInfo}
+            ></textarea>
+          </div>
+          <div className="form-row">
+            <label htmlFor="imagenurl-input">
+              Enter you city's image link:
+            </label>
+            <textarea
+              id="imageurl-input"
+              onChange={this.handleChangeImageUrl}
+            ></textarea>
+          </div>
+          <div className="form-row">
+            <button onClick={this.handleSubmit}>Click</button>
+          </div>
+        </fieldset>
       </form>
     );
   }

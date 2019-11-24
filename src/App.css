@@ -39,10 +39,15 @@ header {
 }
 /*form*/
 .form-continents {
-
     margin: 0px auto;
     display: flex;
     justify-content: center;
+
+    width: 50%;
+}
+fieldset {
+    border: solid yellow 10px;
+
 }
 .form-continents label {
     margin-right: 20px;
@@ -62,7 +67,6 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     width: 50%;
-    border: 1px solid black;
     
 }
 .form-write-city .form-row{
