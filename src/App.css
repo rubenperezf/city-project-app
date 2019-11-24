@@ -1,6 +1,13 @@
 body {
-    background-color: red;
+
+    background-image: url("https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+    font-size: 40px;
+
 }
+.App {
+
+}
+
 /*header*/
 header {
     text-align: center;
@@ -10,6 +17,7 @@ header {
     display: flex; 
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 .cities {
  border: 1px solid black;
@@ -17,6 +25,9 @@ header {
  padding: 50px;
  width: 80%;
  text-align: center;
+ background:white;
+ color: black;
+ font-size: 20px;
 }
 .cities > img {
     width: 500px;
@@ -28,9 +39,35 @@ header {
 }
 /*form*/
 .form-continents {
+
+    margin: 0px auto;
     display: flex;
     justify-content: center;
 }
 .form-continents label {
     margin-right: 20px;
+    margin-bottom: 10px;
 }
+
+
+.form-row button {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/*form write city*/
+
+.form-write-city {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    border: 1px solid black;
+    
+}
+.form-write-city .form-row{
+    
+}
+
+
+

@@ -44,8 +44,8 @@ export default class Form extends React.Component {
       <form className="form-continents">
         <div className="form-row">
           <label htmlFor="contient">
-            Select a continent taht you like to visit
-          </label>
+            Select a continent that you like to visit
+          </label>  
           <select
             id="continent"
             name="continent"
@@ -65,9 +65,12 @@ export default class Form extends React.Component {
             <option value="Australia">Australia</option>
             <option value="Antartica">Antartica</option>
           </select>
+          
           {console.log(this.state.continent)}
-          <br></br>
+          
+          <div className="form-row">
           <button onClick={this.changeIsDisplayed}>Click</button>
+          </div>
         </div>
       </form>
     );
