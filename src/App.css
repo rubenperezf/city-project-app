@@ -72,6 +72,12 @@ fieldset {
 .form-write-city .form-row{
     margin-bottom: 10px;
 }
+.imageUrl {
+    width: 700px;
+}
+.form-write-city label {
+    margin-right: 20px;
+}
 
 
 

@@ -63,9 +63,9 @@ export default class WriteCountry extends React.Component {
     return (
       <form className="form-write-city">
         <fieldset>
-          <legend>Check city's of the World:</legend>
+          <legend>Add your own review of a city around the world:</legend>
           <div className="form-row">
-            <label htmlFor="name-input">Enter a City:</label>
+            <label htmlFor="name-input">City name:</label>
             <textarea
               id="name-input"
               onChange={this.handleChangeName}
@@ -73,7 +73,7 @@ export default class WriteCountry extends React.Component {
           </div>
           <div className="form-row">
             <label htmlFor="contient">
-              Select a continent that you like to visit
+              Continent:
             </label>
             <select
               id="continent"
@@ -96,14 +96,14 @@ export default class WriteCountry extends React.Component {
             </select>
           </div>
           <div className="form-row">
-            <label htmlFor="country-input">Enter your city's countruyy:</label>
+            <label htmlFor="country-input">Country:</label>
             <textarea
               id="country-input"
               onChange={this.handleChangeCountry}
             ></textarea>
           </div>
           <div className="form-row">
-            <label htmlFor="info-input">Enter your city's info:</label>
+            <label htmlFor="info-input">Info:</label>
             <br></br>
             <textarea
               id="info-input"
@@ -113,10 +113,10 @@ export default class WriteCountry extends React.Component {
             ></textarea>
           </div>
           <div className="form-row">
-            <label htmlFor="imagenUrl-input">
-              Enter you city's image link:
+            <label htmlFor="imageUrl-input">
+              Image's link:
             </label>
-            <textarea
+            <textarea className="imageUrl"
               id="imageUrl-input"
               onChange={this.handleChangeImageUrl}
             ></textarea>

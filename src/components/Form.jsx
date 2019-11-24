@@ -43,7 +43,7 @@ export default class Form extends React.Component {
     return (
       <form className="form-continents">
         <fieldset>
-          <legend>Check out cities of the World:</legend>
+          <legend>Learn more about cities around the world:</legend>
         <div className="form-row">
           <label htmlFor="contient">
             Select a continent that you want to visit:
