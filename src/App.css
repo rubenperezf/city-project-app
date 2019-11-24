@@ -9,6 +9,15 @@ body {
 /*header*/
 header {
   text-align: center;
+  
+}
+.reload {
+  color: yellow;
+  text-decoration: none;
+}
+.reload:hover {
+  color: lightyellow;
+  text-decoration: none;
 }
 /*axios*/
 .cities-container {
