@@ -108,7 +108,7 @@ export default class WriteCountry extends React.Component {
             <textarea
               id="info-input"
               rows="10"
-              cols="200"
+              cols="150"
               onChange={this.handleChangeInfo}
             ></textarea>
           </div>
@@ -122,7 +122,7 @@ export default class WriteCountry extends React.Component {
             ></textarea>
           </div>
           <div className="form-row">
-            <button onClick={this.handleSubmit}>Click</button>
+            <button onClick={this.handleSubmit}>SEND YOUR REVIEW</button>
           </div>
         </fieldset>
       </form>
