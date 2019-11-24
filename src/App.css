@@ -46,7 +46,7 @@ fieldset {
   margin-bottom: 10px;
 }
 .form-continents {
-    text-align: center;
+  text-align: center;
 }
 
 .form-row button {
@@ -71,7 +71,6 @@ fieldset {
   margin: 20px auto;
   width: 70%;
   text-align: center;
-  
 }
 .form-write-city .form-row {
   margin-bottom: 10px;
@@ -82,4 +81,3 @@ fieldset {
 .form-write-city label {
   margin-right: 20px;
 }
-
